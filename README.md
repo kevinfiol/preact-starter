@@ -8,4 +8,4 @@ I was preparing to teach front-end web development to my cousin and wanted to ea
 
 ## Disclaimer
 
-This project uses [sucrase](https://github.com/alangpierce/sucrase) as a transpiler as opposed to Babel in order to optimize bundle build times, and also minimize dependencies. Sucrase is fine for production builds **so long as you're OK with only supporting modern browsers**. For that reason, don't expect this to work with IE11. Use a [modern browser](https://firefox.com).
+This project uses [sucrase](https://github.com/alangpierce/sucrase) as a transpiler as opposed to Babel in order to optimize bundle build times, and also minimize dependencies. Sucrase is fine for production builds **so long as you're OK with only supporting modern browsers**. For that reason, don't expect this to work with IE11. See [buble](https://buble.surge.sh) if you need a zero-config transpiler with JSX support that also transpiles to ES5. Or [babel](https://babeljs.io/) if you want to go down that rabbithole.

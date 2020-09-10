@@ -1,0 +1,32 @@
+{
+  "name": "preact-starter",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "rollup -c -w --environment DEV",
+    "build": "rollup -c --environment PROD",
+    "test": "ospec"
+  },
+  "dependencies": {
+    "preact": "^10.4.8"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "@modular-css/processor": "^25.8.2",
+    "@modular-css/rollup": "^25.8.2",
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@rollup/plugin-sucrase": "^3.1.0",
+    "autoprefixer": "^9.8.6",
+    "cssnano": "^4.1.10",
+    "eslint": "^7.8.1",
+    "eslint-config-developit": "^1.2.0",
+    "ospec": "^4.1.1",
+    "rollup": "^2.26.11",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-serve": "^1.0.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "tailwindcss": "^1.8.6"
+  }
+}

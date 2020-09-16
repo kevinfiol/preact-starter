@@ -1,8 +1,8 @@
 import { h } from 'preact';
-import styles from './Btn.css';
+import { btn } from './Btn.css';
 
 const Btn = props => (
-    <button className={styles.btn} {...props} />
+    <button className={btn} {...props} />
 );
 
 export default Btn;

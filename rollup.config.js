@@ -11,9 +11,9 @@ import livereload from 'rollup-plugin-livereload';
 import Processor from '@modular-css/processor';
 import mcss from '@modular-css/rollup';
 import purgecss from '@fullhuman/postcss-purgecss';
-import tailwindcss from 'tailwindcss';
 import cssnano from 'cssnano';
 import autoprefixer from 'autoprefixer';
+import postcssImport from 'postcss-import';
 
 const isProd = process.env.PROD === 'true';
 const isDev  = process.env.DEV === 'true';
@@ -40,9 +40,6 @@ const config = {
             map: isDev,
             include: './src/**/*.css',
             processor: new Processor({
-                processing: [
-                    tailwindcss
-                ],
                 done: isProd && [
                     purgecss({
                         content: ['./public/**/*.html', './src/**/*.js', './src/**/*.css'],
@@ -51,7 +48,8 @@ const config = {
                     }),
                     cssnano(),
                     autoprefixer
-                ]
+                ],
+                after: [ postcssImport ]
             })
         }),
 
@@ -64,7 +62,6 @@ const config = {
         }),
         nodeResolve({ modules: true }),
         commonjs(),
-
 
         // Production-only Plugins
         isProd && terser.terser(),

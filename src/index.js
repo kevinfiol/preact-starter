@@ -1,5 +1,4 @@
-import './styles/tailwind.css';
-import './styles/global.css';
+import './styles/index.css';
 
 import { h, render } from 'preact';
 import { useState } from 'preact/hooks';
@@ -18,8 +17,8 @@ const App = () => {
     }
 
     return (
-        <div className="container max-w-xl mx-auto p-3">
-            <h1 className="text-4xl">Preact Starter</h1>
+        <div className="max-width-3 mx-auto p3">
+            <h1>Preact Starter</h1>
             <p>This is a sample Preact application.</p>
             <Counter
                 num={num}

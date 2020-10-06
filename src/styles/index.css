@@ -1,3 +1,5 @@
 /* CSS Dependencies */
-@import url('global.css');
 @import url('ace-css/index.css');
+
+/* Global Styles */
+p { font-family: monospace; }

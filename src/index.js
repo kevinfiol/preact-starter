@@ -19,7 +19,7 @@ const App = () => {
     return (
         <div className="max-width-3 mx-auto p3">
             <h1>Preact Starter</h1>
-            <p>This is a sample Preact application.</p>
+            <p class="who-cares">This is a sample Preact application.</p>
             <Counter
                 num={num}
                 increment={increment}

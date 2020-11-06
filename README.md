@@ -4,7 +4,7 @@ A minimal [Preact](https://preactjs.com/) starter project using [rollup](http://
 
 ## Installing dependencies, Running, Building, & Testing
 
-```
+``` bash
 # install
 npm install
 

@@ -2,7 +2,7 @@
 
 A minimal [Preact](https://preactjs.com/) starter project using [rollup](http://rollupjs.org/) for bundling, [modular-css](https://m-css.com/) for CSS modules, [basscss](https://basscss.com/) (w/ addons) for styles, and [ospec](https://github.com/MithrilJS/mithril.js/tree/next/ospec) for testing.
 
-## Installing dependencies, Running, Building, & Testing
+## Get Started
 
 ``` bash
 # install

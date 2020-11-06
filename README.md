@@ -4,7 +4,7 @@ A minimal [Preact](https://preactjs.com/) starter project using [rollup](http://
 
 ## Installing dependencies, Running, Building, & Testing
 
-```bash
+```
 # install
 npm install
 
@@ -24,7 +24,7 @@ I was preparing to teach front-end web development to my cousin and wanted to ea
 
 ## State Management
 
-I chose to implement the [Meiosis] State Management pattern with the `useReducer` hook. The reducer is simply `(x, f) => f(x)`, as I use function patches to modify the state. I took this approach because it's straight-forward to write additional actions, make changes and reason about your global state, and it requires *zero* additional dependencies.
+I chose to implement the [Meiosis](https://meiosis.js.org/) pattern with the `useReducer` hook. The reducer is simply `(x, f) => f(x)`, as I use function patches to modify the state. I took this approach because it's straight-forward to write additional actions, make changes and reason about your global state, and it requires *zero* additional dependencies.
 
 ## Disclaimer
 

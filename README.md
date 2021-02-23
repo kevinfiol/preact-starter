@@ -1,5 +1,11 @@
 # Preact Starter
 
+## Status Update 02/23/2021
+
+Since I've created this repository, [wmr](https://github.com/preactjs/wmr) is now a thing. I recommend taking a look at that for your general front-end development needs. If you have no need for CSS Modules and just need a bundler, consider using [esbuild](https://github.com/evanw/esbuild).
+
+___
+
 A minimal [Preact](https://preactjs.com/) starter project using [rollup](http://rollupjs.org/) for bundling, [modular-css](https://m-css.com/) for CSS modules, [basscss](https://basscss.com/) (w/ addons) for styles, and [ospec](https://github.com/MithrilJS/mithril.js/tree/next/ospec) for testing.
 
 ## Get Started

@@ -2,7 +2,7 @@
 
 ## Status Update 02/23/2021
 
-Since I've created this repository, [wmr](https://github.com/preactjs/wmr) is now a thing. I recommend taking a look at that for your general front-end development needs. If you have no need for CSS Modules and just need a bundler, consider using [esbuild](https://github.com/evanw/esbuild).
+Since I've created this repository, [wmr](https://github.com/preactjs/wmr) is now a thing. I recommend taking a look at that for your Preact development needs. There is also [vite](https://github.com/vitejs/vite). If you have no need for CSS Modules and just need a bundler, consider using [esbuild](https://github.com/evanw/esbuild).
 
 ___
 
